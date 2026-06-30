@@ -259,7 +259,26 @@ GitHub Actions automatically deploys the application whenever code is pushed to 
 | No Load Balancer | Simpler architecture but introduces a single point of failure |
 | Manual EC2 Provisioning | Faster implementation but less scalable |
 
+---
 
+## Cost Awareness
+
+This project is designed to operate within the AWS Free Tier.
+
+| Resource | Estimated Cost |
+|-----------|---------------|
+| EC2 t2.micro/t3.micro | Free Tier Eligible |
+| IAM | Free |
+| Security Groups | Free |
+| GitHub Actions | Free Tier Usage |
+
+Estimated monthly cost under Free Tier:
+
+```text
+$0 - $5 per month
+```
+
+---
 
 ---
 
